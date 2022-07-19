@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react'
 import React from 'react'
 import { motion } from 'framer-motion'
 
-const About = () => {
+const About = () => {  
   const [abouts, setAbouts] = useState([]);
 
   useEffect(() =>{
