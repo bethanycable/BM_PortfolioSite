@@ -1,3 +1,5 @@
+import { About, Footer, Header, Skills, Testimonial, Work } from "./container";
+
 import React from "react";
 
 const App = () => {
