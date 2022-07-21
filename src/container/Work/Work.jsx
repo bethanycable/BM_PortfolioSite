@@ -1,6 +1,6 @@
 import './Work.scss'
 
-import {AiFillEye, AiFillGithub, aiFillEye} from 'react-icons/ai'
+import {AiFillEye, AiFillGithub} from 'react-icons/ai'
 import { client, urlFor } from '../../client'
 import { useEffect, useState } from 'react'
 
@@ -28,7 +28,19 @@ const Work = () => {
   }, [])
 
   const handleWorkFilter = (item) => {
+    setActiveFilter(item)
+    setAnimateCard([{ y: 100, opacity: 0}])
 
+    setTimeout(() => {
+      setAnimateCard([{ y: 0, opacity: 1}])
+
+      if(item === 'All') {
+        setFilterWork(works)
+      } else {
+        setFilterWork(works.filter((work) => work.tags.includes(item)))
+      }
+
+    }, 500)
   }
 
   return (
@@ -60,7 +72,7 @@ const Work = () => {
               <motion.div
                 whileHover={{ opacity: [0, 1] }}
                 transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
-                className= 'app__work ap__flex'
+                className= 'app__work-hover app__flex'
               >
                 <a href={work.projectLink} target='_blank' rel='noreferrer'>
                   <motion.div
