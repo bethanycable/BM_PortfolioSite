@@ -1,11 +1,10 @@
 import './Work.scss'
 
 import {AiFillEye, AiFillGithub} from 'react-icons/ai'
+import React, { useEffect, useState } from 'react'
 import { client, urlFor } from '../../client'
-import { useEffect, useState } from 'react'
 
 import { AppWrap } from '../../wrapper'
-import React from 'react'
 import { motion } from 'framer-motion'
 
 const Work = () => {
