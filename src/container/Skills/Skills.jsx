@@ -1,10 +1,10 @@
 import './Skills.scss'
 
+import { AppWrap, MotionWrap } from '../../wrapper'
 import { MotionValue, motion } from 'framer-motion'
 import React, { useEffect, useState } from 'react'
 import { client, urlFor } from '../../client'
 
-import { AppWrap } from '../../wrapper'
 import ReactTooltip from 'react-tooltip'
 
 const Skills = () => {
@@ -89,4 +89,8 @@ const Skills = () => {
   )
 }
 
-export default AppWrap(Skills, 'skill')
+export default AppWrap(
+  MotionWrap(Skills, 'app__skills'), 
+  'skills', 
+  'app__whitebg'
+)
