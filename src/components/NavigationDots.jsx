@@ -12,7 +12,6 @@ const NavigationDots = ({ active }) => {
             className="app__navigation-dot"
             style={active === item ? {backgroungColor: '#313bac'} : {}}
             />
-
         ))}
     </div>
   )
