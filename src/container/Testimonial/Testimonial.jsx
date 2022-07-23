@@ -2,11 +2,10 @@ import './Testimonial.scss'
 
 import { AppWrap, MotionWrap } from '../../wrapper'
 import { HiChevronLeft, HiChevronRight } from 'react-icons/hi'
-import { MotionValue, motion } from 'framer-motion'
 import React, { useEffect, useState } from 'react'
 import { client, urlFor } from '../../client'
 
-import { BsGraphDown } from 'react-icons/bs'
+import { motion } from 'framer-motion'
 
 const Testimonial = () => {
   const [brands, setBrands] = useState([])
