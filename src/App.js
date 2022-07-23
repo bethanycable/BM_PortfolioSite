@@ -1,9 +1,8 @@
 import "./App.scss";
 
-import { About, Footer, Header, Skills, Testimonial, Work } from "./container";
+import { About, Footer, Header, Photography, Skills, Work } from "./container";
 
 import { Navbar } from "./components";
-import Photography from "../../backend_sanity/schemas/photography";
 import React from "react";
 
 const App = () => {
