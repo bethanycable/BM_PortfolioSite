@@ -3,6 +3,7 @@ import "./App.scss";
 import { About, Footer, Header, Skills, Testimonial, Work } from "./container";
 
 import { Navbar } from "./components";
+import Photography from "../../backend_sanity/schemas/photography";
 import React from "react";
 
 const App = () => {
@@ -13,7 +14,7 @@ const App = () => {
       <About />
       <Work />
       <Skills />
-      <Testimonial />
+      <Photography />
       <Footer />
     </div>
   );
