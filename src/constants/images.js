@@ -34,7 +34,7 @@ import spotify from "../assets/spotify.png";
 import typescript from "../assets/typescript.png";
 import vue from "../assets/vue.png";
 
-const Images = () => {
+const images = {
   api,
   bgIMG,
   bgWhite,
@@ -71,4 +71,5 @@ const Images = () => {
   skype,
   spotify,
 };
-export default Images
+
+export default images;
