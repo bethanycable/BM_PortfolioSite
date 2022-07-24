@@ -5,7 +5,7 @@ import about04 from "../assets/about04.png";
 import api from "../assets/api.png";
 import bgIMG from "../assets/bgIMG.png";
 import bgWhite from "../assets/bgWhite.png";
-import calibachoa from "../assets/calibachoa.jpg";
+import calibrachoa from "../assets/calibrachoa.jpg";
 import circle from "../assets/circle.svg";
 import cpp from "../assets/cpp.png";
 import crapeMyrtle from "../assets/crape_myrtle.jpg";
@@ -30,6 +30,7 @@ import python from "../assets/python.png";
 import react from "../assets/react.png";
 import redux from "../assets/redux.png";
 import sass from "../assets/sass.png";
+import stBrunoLily from "../assets/st-bruno-lily.jpeg";
 import typescript from "../assets/typescript.png";
 import vue from "../assets/vue.png";
 
@@ -62,12 +63,13 @@ const images = {
   profile,
   circle,
   logo,
-  calibachoa,
+  calibrachoa,
   crapeMyrtle,
   hypericum,
   lantana,
   pinkRose,
   crepeMyrtle,
+  stBrunoLily,
 };
 
 export default images;
