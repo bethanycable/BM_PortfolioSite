@@ -18,7 +18,7 @@ const Photography = () => {
 
   useEffect(() => {
     const query = '*[_type == "photography"]'
-
+  
     client.fetch(query)
       .then((data) => {
         setPhotography(data)
@@ -27,12 +27,12 @@ const Photography = () => {
 
   return (
     <>
-      <h2 className='head-text'>Peace of Mind</h2>
+      <h2 className='head-text'>Photography Side</h2>
       {photography.length && (
         <>
           <div className='app__photography-card'>
             <div className='app__photography-item app__flex'>
-              <img src={urlFor(photo.imgurl)} alt=''/>
+              <img src={urlFor(photo.imgurl)} alt={photo.name} />
             </div>
           </div>
           <div className='app__photography-btns app__flex'>

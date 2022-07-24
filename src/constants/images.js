@@ -9,6 +9,7 @@ import calibachoa from "../assets/calibachoa.jpg";
 import circle from "../assets/circle.svg";
 import cpp from "../assets/cpp.png";
 import crapeMyrtle from "../assets/crape_myrtle.jpg";
+import crepeMyrtle from "../assets/crepe_myrtle.jpg";
 import css from "../assets/css.png";
 import email from "../assets/email.png";
 import figma from "../assets/figma.png";
@@ -19,10 +20,11 @@ import html from "../assets/html.png";
 import hypericum from "../assets/hypericum.jpg";
 import javascript from "../assets/javascript.png";
 import lantana from "../assets/lantana.jpg";
-import logo from "../assets/logo.png";
+import logo from "../assets/BM-logo-noback.png";
 import mobile from "../assets/mobile.png";
 import mu5 from "../assets/mu5.png";
 import node from "../assets/node.png";
+import pinkRose from "../assets/pink_rose.jpg";
 import profile from "../assets/profile.png";
 import python from "../assets/python.png";
 import react from "../assets/react.png";
@@ -64,6 +66,8 @@ const images = {
   crapeMyrtle,
   hypericum,
   lantana,
+  pinkRose,
+  crepeMyrtle,
 };
 
 export default images;
