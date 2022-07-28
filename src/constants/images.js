@@ -9,6 +9,9 @@ import beachRose from "../assets/beach-rose.jpg";
 import beardedIris from "../assets/beach-rose.jpg";
 import bgIMG from "../assets/bgIMG.png";
 import bgWhite from "../assets/bgWhite.png";
+import bkgImg from "../assets/bkgImg.png";
+import bookWalk from "../assets/book-walk.png";
+import bookshelf from "../assets/Bookshelves-Blue-Books.svg";
 import bridge from "../assets/overgrown-bridge.jpg";
 import calibrachoa from "../assets/calibrachoa.jpg";
 import circle from "../assets/circle.svg";
@@ -106,6 +109,9 @@ const images = {
   tigerLily,
   indianLantana,
   yellowDayLily,
+  bookshelf,
+  bkgImg,
+  bookWalk,
 };
 
 export default images;
