@@ -43,7 +43,7 @@ const Header = () => {
           duration={{ duration: 0.5 }}
           className='app__header-btn'
         >
-          <a href="#">Contact Me!</a>
+          <a href="Contact.jsx">Contact Me!</a>
         </motion.div> 
       </motion.dev>
 
