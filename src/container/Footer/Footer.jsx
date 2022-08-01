@@ -46,8 +46,8 @@ const Footer = () => {
         <a href='mailto:bethany.a.cable@gmail.com' className='p-text'>bethany.a.cable@gmail.com</a>
       </div>
       <div className='app__footer-card'>
-        <img src={images.mobile} alt='mobile' />
-        <a href='tel: +1(123) 456-7890' className='p-text'>+1 (123) 456-7890</a>
+        <img src={images.linkedIn} alt='linkedIn' attribute="Google"/>
+        <a href='https://www.linkedin.com/in/bethany-a-mattern/' target="_blank" rel="noreferrer" className='p-text'>LinkedIn: Bethany Mattern</a>
       </div>
     </div>
 

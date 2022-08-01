@@ -2,6 +2,7 @@ import about01 from "../assets/about01.png";
 import about02 from "../assets/about02.png";
 import about03 from "../assets/about03.png";
 import about04 from "../assets/about04.png";
+import alstroemeria from "../assets/Alstroemeria-psittacina.jpg";
 import aniseSage from "../assets/anise-sage.jpg";
 import api from "../assets/api.png";
 import aquilegaCultorum from "../assets/aquilega-cultorum.jpg";
@@ -9,9 +10,6 @@ import beachRose from "../assets/beach-rose.jpg";
 import beardedIris from "../assets/beach-rose.jpg";
 import bgIMG from "../assets/bgIMG.png";
 import bgWhite from "../assets/bgWhite.png";
-import bkgImg from "../assets/bkgImg.png";
-import bookWalk from "../assets/book-walk.png";
-import bookshelf from "../assets/Bookshelves-Blue-Books.svg";
 import bridge from "../assets/overgrown-bridge.jpg";
 import calibrachoa from "../assets/calibrachoa.jpg";
 import circle from "../assets/circle.svg";
@@ -24,6 +22,7 @@ import figma from "../assets/figma.png";
 import flutter from "../assets/flutter.png";
 import git from "../assets/git.png";
 import graphql from "../assets/graphql.png";
+import greenery from "../assets/greenery.jpg";
 import html from "../assets/html.png";
 import hypericum from "../assets/hypericum.jpg";
 import indianLantana from "../assets/west-indian-lantana.jpg";
@@ -31,17 +30,18 @@ import javascript from "../assets/javascript.png";
 import lambsEar from "../assets/lambs-ear.jpg";
 import lantana from "../assets/lantana.jpg";
 import lilacTree from "../assets/lilac-tree.jpg";
+import linkedIn from "../assets/linkedin-logo.png";
 import logo from "../assets/BM-logo-noback.png";
 import marvelPeru from "../assets/marvel-of-peru.jpg";
-import mobile from "../assets/mobile.png";
 import mu5 from "../assets/mu5.png";
 import node from "../assets/node.png";
 import orangeDayLily from "../assets/orange-day-lily.jpg";
+import overGrownWall from "../assets/Overgrown-wall.jpg";
 import peanutCactus from "../assets/peanut-cactus.jpg";
 import pinkRose from "../assets/pink_rose.jpg";
 import pinkRose2 from "../assets/pink-rose2.jpg";
 import ponderosaLemon from "../assets/ponderosa-lemon.jpg";
-import profile from "../assets/profile.png";
+import profile from "../assets/bethany.jpg";
 import python from "../assets/python.png";
 import react from "../assets/react.png";
 import redRose from "../assets/red-rose.jpg";
@@ -68,7 +68,7 @@ const images = {
   graphql,
   html,
   javascript,
-  mobile,
+  linkedIn,
   mu5,
   node,
   python,
@@ -109,9 +109,9 @@ const images = {
   tigerLily,
   indianLantana,
   yellowDayLily,
-  bookshelf,
-  bkgImg,
-  bookWalk,
+  greenery,
+  overGrownWall,
+  alstroemeria,
 };
 
 export default images;
