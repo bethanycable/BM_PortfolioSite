@@ -12,7 +12,6 @@ import bgIMG from "../assets/bgIMG.png";
 import bgWhite from "../assets/bgWhite.png";
 import bridge from "../assets/overgrown-bridge.jpg";
 import calibrachoa from "../assets/calibrachoa.jpg";
-import circle from "../assets/circle.svg";
 import cpp from "../assets/cpp.png";
 import crapeMyrtle from "../assets/crape_myrtle.jpg";
 import crepeMyrtle from "../assets/crepe_myrtle.jpg";
@@ -82,7 +81,6 @@ const images = {
   about03,
   about04,
   profile,
-  circle,
   logo,
   calibrachoa,
   crapeMyrtle,
