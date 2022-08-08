@@ -41,6 +41,7 @@ import peanutCactus from "../assets/peanut-cactus.jpg";
 import pinkRose from "../assets/pink_rose.jpg";
 import pinkRose2 from "../assets/pink-rose2.jpg";
 import ponderosaLemon from "../assets/ponderosa-lemon.jpg";
+import portfolio from "../assets/Portfolio.png";
 import profile from "../assets/bethany.jpg";
 import python from "../assets/python.png";
 import react from "../assets/react.png";
@@ -112,6 +113,7 @@ const images = {
   overGrownWall,
   alstroemeria,
   pacMan,
+  portfolio,
 };
 
 export default images;
