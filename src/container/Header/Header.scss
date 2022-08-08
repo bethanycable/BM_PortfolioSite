@@ -36,11 +36,11 @@
 }
 
 .app__header-info {
-    flex: 0.65;
+    flex: 0.75;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: flex-end;
     height: 100%;
 
     @media screen and ( max-width: 2000px){
@@ -59,6 +59,7 @@
 
     .badge-cmp, .tag-cmp {
         padding: 1rem 2rem;
+        
         background-color: var(--white-color);
         opacity: 0.8;
         border: var(--white-color);
@@ -96,8 +97,8 @@
 
 .app__header-btn {
     margin-top: auto;
-    margin-bottom: 100px;
-    align-self: center;
+    margin-bottom: 13rem;
+    align-self: flex-end;
     a {
         padding: 1rem 1.5rem;
         border-radius: 10px;
@@ -139,7 +140,7 @@
 }
 
 .app__header-circles {
-    flex: 0.75;
+    flex: 0.65;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

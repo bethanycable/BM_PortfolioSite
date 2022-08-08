@@ -36,6 +36,7 @@ import mu5 from "../assets/mu5.png";
 import node from "../assets/node.png";
 import orangeDayLily from "../assets/orange-day-lily.jpg";
 import overGrownWall from "../assets/Overgrown-wall.jpg";
+import pacMan from "../assets/PacMan-Game.png";
 import peanutCactus from "../assets/peanut-cactus.jpg";
 import pinkRose from "../assets/pink_rose.jpg";
 import pinkRose2 from "../assets/pink-rose2.jpg";
@@ -110,6 +111,7 @@ const images = {
   greenery,
   overGrownWall,
   alstroemeria,
+  pacMan,
 };
 
 export default images;
