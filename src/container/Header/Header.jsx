@@ -38,13 +38,13 @@ const Header = () => {
           </div>
 
         </div>
-        <motion.div
+        {/* <motion.div
           whileInView={{ x: [-100, 0], opacity: [0, 1] }}
           duration={{ duration: 0.5 }}
           className='app__header-btn'
         >
           <a href="Contact.jsx">Contact Me!</a>
-        </motion.div> 
+        </motion.div>  */}
       </motion.dev>
 
 
