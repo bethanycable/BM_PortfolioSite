@@ -1,4 +1,4 @@
-This project is my website portfolio. The base template was made from a tutorial made by JSmastery on YouTube. The stack is using React as the frontend and Sanity as the backend client. After completing the tutorial, I added in my own component section and have started to change items such as the icon, the logo, and more of the website to make it my own. I am working on inserting my own touches and creating my personal twist on this base. I want over 50% of this website to be my own creation, even if, artistically, I struggle putting my visions to board.
+Welcome to my portfolio repository! I am making changes as I go, and hope to keep an updated portfolio as time goes on. 
 
 # Getting Started with Create React App
 
