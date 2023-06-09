@@ -7,6 +7,7 @@
 .app__photography-card {
     margin-top: 2.5rem ;
     margin-bottom: 1rem;
+    margin: auto;
     padding: 2.5rem 0;
     width: 80%;
     height: 90%;
@@ -38,19 +39,21 @@
 
     @media screen and (max-width: 1500px){
         width: 90%;
-        height: 90%;
+        height: 80%;
+        margin-top: 1.5rem;
 
         .app__photography-item {
             
             img {
-                height: 600px;
+                height: 500px;
             }
         }
     }
 
     @media screen and (max-width: 768px){
         width: 90%;
-        height: 80%;
+        height: 70%;
+        margin-top: 1.25rem;
 
         .app__photography-item {
             
@@ -62,24 +65,25 @@
 
     @media screen and (max-width: 500px){
         width: 90%;
-        height: 60%;
+        height: 70%;
         padding: 0;
+
         .app__photography-item {
             
             img {
-                height: 350px;
+                height: 250px;
             }
         }
     }
-
-
 }
 
 
 
 .app__photography-btns {
     flex-direction: row;
-    margin-top: 1rem;
+    justify-content: space-between;
+    position: relative;
+    bottom: 45%;
 
     div {
         width: 50px;
